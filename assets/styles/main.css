@@ -427,7 +427,7 @@ h3 {
 
 .request__content {
     border-radius: 10px 40px 10px 10px;
-    background: url("../images/request-bg.png") no-repeat center right / cover;
+    background: url("../images/request-bg.jpg") no-repeat center right / cover;
     padding: 50px 80px 74px;
     color: #fff;
 }
@@ -683,7 +683,7 @@ h3 {
     .request__content {
         padding-left: 30px;
         padding-right: 30px;
-        background: url("../images/request-bg-s.png") no-repeat center bottom /
+        background: url("../images/request-bg-s.jpg") no-repeat center bottom /
       cover;
     }
 
