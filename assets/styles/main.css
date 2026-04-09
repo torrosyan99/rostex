@@ -3,7 +3,7 @@ html {
 }
 
 body {
-    font-family: 'Gilroy', sans-serif;
+    font-family: "Gilroy", sans-serif;
     font-size: 18px;
     color: #000;
 }
@@ -11,7 +11,6 @@ body {
 section {
     padding-top: 130px;
 }
-
 
 svg {
     flex-shrink: 0;
@@ -28,7 +27,6 @@ h3 {
     padding: 0 16px;
     margin: 0 auto;
 }
-
 
 .header {
     position: absolute;
@@ -59,7 +57,7 @@ h3 {
 .header__button {
     display: block;
     padding: 9px 15px 9px 17px;
-    border: 1px solid #94FF37;
+    border: 1px solid #94ff37;
     position: relative;
     font-weight: 400;
     border-radius: 50px;
@@ -70,13 +68,13 @@ h3 {
     content: "";
     position: absolute;
     inset: 3px;
-    border: 1px solid #94FF37;
+    border: 1px solid #94ff37;
     border-radius: 47px;
     transition: border 0.2s ease-in-out;
 }
 
 .header__button:hover {
-    background: #94FF37;
+    background: #94ff37;
 }
 
 .header__button:hover:after {
@@ -84,7 +82,7 @@ h3 {
 }
 
 .rub {
-    font-family: 'ASL Rubl', sans-serif;
+    font-family: "ASL Rubl", sans-serif;
     font-weight: 400;
 }
 
@@ -104,8 +102,8 @@ h3 {
     font-size: 55px;
     display: block;
     margin-bottom: 25px;
-    color: #94FF37;
-    font-family: 'Arctika Script', sans-serif;
+    color: #94ff37;
+    font-family: "Arctika Script", sans-serif;
 }
 
 .top__content {
@@ -209,7 +207,6 @@ h3 {
     gap: 153px;
 }
 
-
 .about__list {
     line-height: 2;
     font-size: 20px;
@@ -292,7 +289,7 @@ h3 {
 }
 
 .payments__title {
-    line-height: .67;
+    line-height: 0.67;
 }
 
 .payments__subtitle {
@@ -373,13 +370,12 @@ h3 {
     left: -30px;
     background: #94ff37;
     border-radius: 50%;
-
 }
 
 .payments__semester-price {
     display: block;
     width: 100px;
-    text-wrap: nowrap ;
+    text-wrap: nowrap;
     font-size: 25px;
     font-weight: 600;
     flex-shrink: 0;
@@ -388,7 +384,6 @@ h3 {
 .payments__arrow {
     margin: 14px 16px 0 11px;
     align-self: flex-start;
-
 }
 
 .payments__value {
@@ -421,6 +416,7 @@ h3 {
     font-size: 30px;
     font-weight: 600;
 }
+
 .payments__green {
     color: #94ff37;
 }
@@ -431,7 +427,7 @@ h3 {
 
 .request__content {
     border-radius: 10px 40px 10px 10px;
-background: url("../images/request-bg.png") no-repeat center right / cover;
+    background: url("../images/request-bg.png") no-repeat center right / cover;
     padding: 50px 80px 74px;
     color: #fff;
 }
@@ -439,8 +435,9 @@ background: url("../images/request-bg.png") no-repeat center right / cover;
 .request__title {
     color: #fff;
 }
+
 .request__title span {
-    font-family: 'Arctika Script', sans-serif;
+    font-family: "Arctika Script", sans-serif;
     color: #94ff37;
     font-size: 120px;
     letter-spacing: -22px;
@@ -455,7 +452,7 @@ background: url("../images/request-bg.png") no-repeat center right / cover;
 .request__flex {
     align-items: center;
     display: flex;
-    gap:  20px;
+    gap: 20px;
 }
 
 .request__form-item {
@@ -470,6 +467,10 @@ background: url("../images/request-bg.png") no-repeat center right / cover;
     margin-top: 9px;
     border: 1px solid #929090;
     padding: 0 20px;
+}
+
+.request__input--error {
+    border: 1px solid red;
 }
 
 .request__input:focus {
@@ -490,13 +491,13 @@ background: url("../images/request-bg.png") no-repeat center right / cover;
     font-weight: 500;
     margin-top: 26px;
     gap: 12px;
-    border: 1px solid #E5FFCE;
+    border: 1px solid #e5ffce;
     border-radius: 0 30px;
     width: 100%;
     max-width: 318px;
     height: 65px;
     background: #94ff37;
-    color: #302E2E;
+    color: #302e2e;
     transition: background-color 0.2s ease-in-out;
 }
 
@@ -509,23 +510,21 @@ background: url("../images/request-bg.png") no-repeat center right / cover;
     font-size: 14px;
 }
 
-
 .footer {
-    background: #302E2E;
+    background: #302e2e;
     padding: 20px 0 40px;
     color: #fff;
     margin-top: 100px;
-    border-radius: 10px 10px 0 0 ;
+    border-radius: 10px 10px 0 0;
 }
 
 .footer__inner {
     border-bottom: 1px solid rgba(235, 234, 232, 0.4);
-    display:flex;
+    display: flex;
     gap: 40px 20px;
     justify-content: space-between;
     padding-bottom: 29px;
 }
-
 
 .footer__wrapper span {
     display: block;
@@ -543,12 +542,12 @@ background: url("../images/request-bg.png") no-repeat center right / cover;
     text-align: end;
     display: flex;
     flex-direction: column;
- align-items: flex-end;
+    align-items: flex-end;
 }
 
 .footer__mail {
     width: fit-content;
-    font-family: 'Gilroy', sans-serif;
+    font-family: "Gilroy", sans-serif;
     display: flex;
     align-items: center;
     font-size: 20px;
@@ -589,11 +588,11 @@ background: url("../images/request-bg.png") no-repeat center right / cover;
     margin-top: 25px;
     font-size: 14px;
     text-decoration: underline;
-    transition: color .2s ease-in-out;
+    transition: color 0.2s ease-in-out;
 }
 
 .footer__policy:hover {
-    color: #FF2440;
+    color: #ff2440;
 }
 
 @media (max-width: 1400px) {
@@ -603,7 +602,6 @@ background: url("../images/request-bg.png") no-repeat center right / cover;
 }
 
 @media (max-width: 1280px) {
-
     .top__title {
         font-size: 100px;
     }
@@ -678,15 +676,15 @@ background: url("../images/request-bg.png") no-repeat center right / cover;
     }
 
     .payments__first-semester,
-    .payments__second-semester{
+    .payments__second-semester {
         width: 100%;
     }
-
 
     .request__content {
         padding-left: 30px;
         padding-right: 30px;
-        background: url("../images/request-bg-s.png") no-repeat center bottom / cover;
+        background: url("../images/request-bg-s.png") no-repeat center bottom /
+      cover;
     }
 
     .request__wrapper {
@@ -708,7 +706,6 @@ background: url("../images/request-bg.png") no-repeat center right / cover;
 }
 
 @media (max-width: 768px) {
-
     section {
         padding-top: 70px;
     }
@@ -720,7 +717,6 @@ background: url("../images/request-bg.png") no-repeat center right / cover;
     .top {
         padding: 155px 0 56px;
         background: url("../images/main-bg-s.jpg") no-repeat bottom center / cover;
-
     }
 
     .top__content {
@@ -773,7 +769,6 @@ background: url("../images/request-bg.png") no-repeat center right / cover;
         margin-top: 0;
         font-size: 50px;
     }
-
 
     .top__block:last-child .top__text {
         margin-top: 0;
@@ -835,6 +830,7 @@ background: url("../images/request-bg.png") no-repeat center right / cover;
         text-align: start;
         padding-left: 64px;
     }
+
     .payments__all-period-price {
         justify-content: start;
     }
@@ -878,6 +874,7 @@ background: url("../images/request-bg.png") no-repeat center right / cover;
         padding: 0 15px 0 18px;
         margin-top: 27px;
     }
+
     .request__flex {
         flex-direction: column;
     }
@@ -897,7 +894,7 @@ background: url("../images/request-bg.png") no-repeat center right / cover;
     }
 
     .footer__inner {
-       flex-direction: column;
+        flex-direction: column;
     }
 
     .footer__wrapper {
@@ -914,7 +911,6 @@ background: url("../images/request-bg.png") no-repeat center right / cover;
         order: 1;
     }
 
-
     .footer__socials {
         margin: 0 auto;
     }
@@ -928,16 +924,28 @@ background: url("../images/request-bg.png") no-repeat center right / cover;
         text-align: center;
         order: 1;
     }
-
 }
 
 @media (max-width: 415px) {
     .header__nav {
         flex-direction: column;
     }
- .top__block:last-child .top__text {
-     grid-row: 3 / 4;
- }
+
+    .top__places-num {
+        font-size: 60px;
+    }
+
+    .top__places-text {
+        font-size: 16px;
+    }
+
+    .top__places-text span {
+        font-size: 14px;
+    }
+
+    .top__block:last-child .top__text {
+        grid-row: 3 / 4;
+    }
 }
 
 @media (max-width: 380px) {
@@ -954,7 +962,7 @@ background: url("../images/request-bg.png") no-repeat center right / cover;
     }
 
     .payments__first-semester,
-    .payments__second-semester{
+    .payments__second-semester {
         padding-left: 20px;
     }
 }
