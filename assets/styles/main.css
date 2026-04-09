@@ -1,0 +1,960 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Gilroy', sans-serif;
+    font-size: 18px;
+    color: #000;
+}
+
+section {
+    padding-top: 130px;
+}
+
+
+svg {
+    flex-shrink: 0;
+}
+
+h3 {
+    font-size: 60px;
+    font-weight: 500;
+    color: #302e2e;
+}
+
+.container {
+    max-width: 1550px;
+    padding: 0 16px;
+    margin: 0 auto;
+}
+
+
+.header {
+    position: absolute;
+    top: 18px;
+    left: 0;
+    right: 0;
+    z-index: 10;
+}
+
+.header__inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header__nav {
+    padding: 13px 10px 11px 21px;
+    font-size: 14px;
+    background: #023880;
+    border-radius: 10px;
+    font-weight: 500;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    gap: 10px 29px;
+}
+
+.header__button {
+    display: block;
+    padding: 9px 15px 9px 17px;
+    border: 1px solid #94FF37;
+    position: relative;
+    font-weight: 400;
+    border-radius: 50px;
+    transition: background 0.2s ease-in-out;
+}
+
+.header__button:after {
+    content: "";
+    position: absolute;
+    inset: 3px;
+    border: 1px solid #94FF37;
+    border-radius: 47px;
+    transition: border 0.2s ease-in-out;
+}
+
+.header__button:hover {
+    background: #94FF37;
+}
+
+.header__button:hover:after {
+    border: 1px solid #fff;
+}
+
+.rub {
+    font-family: 'ASL Rubl', sans-serif;
+    font-weight: 400;
+}
+
+.top {
+    color: #fff;
+    padding: 199px 0 96px;
+    background: url("../images/main-bg.jpg") no-repeat center center / cover;
+}
+
+.top__title {
+    font-size: 150px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.top__title span {
+    font-size: 55px;
+    display: block;
+    margin-bottom: 25px;
+    color: #94FF37;
+    font-family: 'Arctika Script', sans-serif;
+}
+
+.top__content {
+    margin-top: 160px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.top__block {
+    border-radius: 10px 40px 10px 10px;
+    backdrop-filter: blur(18px);
+    background: rgba(246, 244, 244, 0.1);
+    padding: 20px 30px 20px;
+}
+
+.top__block:first-child {
+    max-width: 494px;
+}
+
+.top__block:last-child {
+    border-radius: 40px 10px 10px 10px;
+}
+
+.top__places {
+    display: flex;
+    align-items: center;
+    line-height: 1;
+    gap: 20px;
+}
+
+.top__places-num {
+    font-weight: 600;
+    font-size: 100px;
+    color: #94ff37;
+}
+
+.top__places-text {
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.top__places-text span {
+    display: block;
+    font-size: 18px;
+    margin-top: 3px;
+    color: #94ff37;
+    line-height: 1.67;
+}
+
+.top__text {
+    font-size: 20px;
+    line-height: 1.67;
+}
+
+.top__text span {
+    color: #94ff37;
+    font-size: 18px;
+    display: block;
+}
+
+.top__before {
+    font-size: 40px;
+    line-height: 1;
+}
+
+.top__price {
+    color: #94ff37;
+    margin-top: 11px;
+    font-size: 80px;
+    line-height: 1;
+    font-weight: 600;
+    display: flex;
+    align-items: flex-end;
+}
+
+.top__start-price {
+    font-size: 100px;
+}
+
+.top__rub {
+    font-weight: 400;
+    margin-left: 2px;
+}
+
+.top__block:last-child .top__text {
+    font-size: 22px;
+}
+
+.about {
+    padding-top: 75px;
+}
+
+.about__content {
+    padding: 30px 50px 32px;
+    border-radius: 10px;
+    box-shadow: 5px 4px 10px 0 rgba(0, 0, 0, 0.25);
+    background-color: rgba(246, 244, 244, 0.6);
+    margin-top: 60px;
+    display: flex;
+    align-items: center;
+    gap: 153px;
+}
+
+
+.about__list {
+    line-height: 2;
+    font-size: 20px;
+    margin-top: 11px;
+}
+
+.about__inner-title {
+    width: fit-content;
+    font-size: 16px;
+    background: #023880;
+    padding: 5px 13px 4px;
+    border-radius: 10px;
+    color: #fff;
+    line-height: 1;
+}
+
+.about__item {
+    display: flex;
+    gap: 10px;
+    align-items: baseline;
+}
+
+.about__item span {
+    color: #023880;
+    font-weight: 500;
+}
+
+.about__balls {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.about__ball {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.about__ball-num {
+    font-size: 40px;
+    font-weight: 500;
+    line-height: 1;
+}
+
+.trajectory__content {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 40px 24px;
+    margin-top: 70px;
+}
+
+.trajectory__block {
+    padding: 40px 24px 45px 35px;
+    box-shadow: 5px 4px 10px 0 rgba(0, 0, 0, 0.25);
+    background: rgba(246, 244, 244, 0.6);
+    border-radius: 10px;
+}
+
+.trajectory__list {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding-left: 28px;
+}
+
+.trajectory__item {
+    line-height: 1.5;
+    font-size: 20px;
+    color: #302e2e;
+    list-style-type: disc;
+}
+
+.trajectory__item span {
+    font-weight: 600;
+}
+
+.trajectory__item::marker {
+    color: #023880;
+}
+
+.payments__title {
+    line-height: .67;
+}
+
+.payments__subtitle {
+    margin-top: 31px;
+    font-size: 40px;
+    color: #302e2e;
+}
+
+.payments__content {
+    margin-top: 63px;
+    display: flex;
+    gap: 40px 26px;
+    color: #fff;
+}
+
+.payments__block-title {
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 1.2;
+    color: #fff;
+}
+
+.payments__all-period {
+    width: 23.8%;
+    border-radius: 10px 40px 10px 10px;
+    padding: 40px 40px 200px;
+    background: linear-gradient(137deg, #07093a 0%, #023880 55.73%);
+    position: relative;
+}
+
+.payments__rubl-wrapper {
+    position: absolute;
+    bottom: -78px;
+    left: 17px;
+    right: 17px;
+}
+
+.payments__rubl {
+    width: 100%;
+}
+
+.payments__all-period-price {
+    margin-top: 30px;
+    margin-left: 5px;
+    font-size: 80px;
+    font-weight: 500;
+    text-wrap: nowrap;
+    color: #94ff37;
+    display: flex;
+    align-items: center;
+}
+
+.payments__first-semester {
+    width: 40.5%;
+    background: linear-gradient(225deg, #07093a 0%, #023880 37.87%);
+    border-radius: 40px 10px 10px 10px;
+    padding: 40px 20px 35px 40px;
+}
+
+.payments__list {
+    margin-top: 38px;
+    display: flex;
+    flex-direction: column;
+    padding-left: 30px;
+    gap: 19px;
+}
+
+.payments__item {
+    display: flex;
+    position: relative;
+}
+
+.payments__circle {
+    width: 10px;
+    height: 10px;
+    position: absolute;
+    top: 10px;
+    left: -30px;
+    background: #94ff37;
+    border-radius: 50%;
+
+}
+
+.payments__semester-price {
+    display: block;
+    width: 100px;
+    text-wrap: nowrap ;
+    font-size: 25px;
+    font-weight: 600;
+    flex-shrink: 0;
+}
+
+.payments__arrow {
+    margin: 14px 16px 0 11px;
+    align-self: flex-start;
+
+}
+
+.payments__value {
+    font-size: 20px;
+    align-self: flex-start;
+}
+
+.payments__semester-price--green {
+    color: #94ff37;
+}
+
+.payments__second-semester {
+    width: 32.3%;
+    background: linear-gradient(136deg, #07093a 0%, #023880 40.87%);
+    border-radius: 10px 40px 10px 10px;
+    padding: 40px 32px 40px 40px;
+}
+
+.payments__second-semester .payments__item {
+    display: block;
+    font-size: 20px;
+}
+
+.payments__second-semester .payments__list {
+    gap: 40px;
+    margin-top: 56px;
+}
+
+.payments__second-semester-price {
+    font-size: 30px;
+    font-weight: 600;
+}
+.payments__green {
+    color: #94ff37;
+}
+
+.request {
+    padding-top: 213px;
+}
+
+.request__content {
+    border-radius: 10px 40px 10px 10px;
+background: url("../images/request-bg.png") no-repeat center right / cover;
+    padding: 50px 80px 74px;
+    color: #fff;
+}
+
+.request__title {
+    color: #fff;
+}
+.request__title span {
+    font-family: 'Arctika Script', sans-serif;
+    color: #94ff37;
+    font-size: 120px;
+    letter-spacing: -22px;
+}
+
+.request__form {
+    display: flex;
+    gap: 40px;
+    align-items: flex-start;
+}
+
+.request__flex {
+    align-items: center;
+    display: flex;
+    gap:  20px;
+}
+
+.request__form-item {
+    max-width: 360px;
+    width: 100%;
+}
+
+.request__input {
+    width: 100%;
+    height: 60px;
+    border-radius: 10px;
+    margin-top: 9px;
+    border: 1px solid #929090;
+    padding: 0 20px;
+}
+
+.request__input:focus {
+    outline: none;
+}
+
+.request__label {
+    display: block;
+    padding-left: 9px;
+    font-size: 14px;
+}
+
+.request__button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    font-weight: 500;
+    margin-top: 26px;
+    gap: 12px;
+    border: 1px solid #E5FFCE;
+    border-radius: 0 30px;
+    width: 100%;
+    max-width: 318px;
+    height: 65px;
+    background: #94ff37;
+    color: #302E2E;
+    transition: background-color 0.2s ease-in-out;
+}
+
+.request__button:hover {
+    background: #fff;
+}
+
+.request__text {
+    margin-top: 15px;
+    font-size: 14px;
+}
+
+
+.footer {
+    background: #302E2E;
+    padding: 20px 0 40px;
+    color: #fff;
+    margin-top: 100px;
+    border-radius: 10px 10px 0 0 ;
+}
+
+.footer__inner {
+    border-bottom: 1px solid rgba(235, 234, 232, 0.4);
+    display:flex;
+    gap: 40px 20px;
+    justify-content: space-between;
+    padding-bottom: 29px;
+}
+
+
+.footer__wrapper span {
+    display: block;
+    font-size: 16px;
+    margin-bottom: 23px;
+}
+
+.footer__telephone {
+    display: block;
+    font-size: 25px;
+    line-height: 1.6;
+}
+
+.footer__wrapper--right {
+    text-align: end;
+    display: flex;
+    flex-direction: column;
+ align-items: flex-end;
+}
+
+.footer__mail {
+    width: fit-content;
+    font-family: 'Gilroy', sans-serif;
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+    gap: 15px;
+}
+
+.footer__mail-circle,
+.footer__social-link {
+    display: grid;
+    place-items: center;
+    border-radius: 50%;
+    border: 1px solid #fff;
+}
+
+.footer__mail-circle {
+    width: 30px;
+    height: 30px;
+}
+
+.footer__socials {
+    justify-content: flex-end;
+    display: flex;
+    gap: 23.38px;
+    margin-top: 19px;
+}
+
+.footer__social-link {
+    width: 40px;
+    height: 40px;
+}
+
+.footer__social-link img {
+    width: 20px;
+    height: 20px;
+}
+
+.footer__policy {
+    margin-top: 25px;
+    font-size: 14px;
+    text-decoration: underline;
+    transition: color .2s ease-in-out;
+}
+
+.footer__policy:hover {
+    color: #FF2440;
+}
+
+@media (max-width: 1400px) {
+    .payments__all-period {
+        padding-left: 20px;
+    }
+}
+
+@media (max-width: 1280px) {
+
+    .top__title {
+        font-size: 100px;
+    }
+
+    .top__title span {
+        font-size: 40px;
+    }
+
+    .top__places-num,
+    .top__start-price {
+        font-size: 80px;
+    }
+
+    .top__price {
+        font-size: 60px;
+    }
+
+    .top__text {
+        font-size: 18px;
+    }
+
+    .top__text span,
+    .top__places-text span {
+        font-size: 16px;
+    }
+
+    .top__places-text {
+        font-size: 24px;
+    }
+
+    .top__block:first-child {
+        max-width: 441px;
+    }
+
+    .top__block:last-child .top__text {
+        font-size: 18px;
+    }
+
+    .about__content {
+        gap: 17px 100px;
+        flex-wrap: wrap;
+    }
+
+    .about__balls {
+        margin-left: 0;
+    }
+
+    .trajectory__content {
+        grid-template-columns: 1fr;
+    }
+
+    .payments__content {
+        flex-direction: column;
+    }
+
+    .payments__all-period {
+        width: 100%;
+        margin-bottom: 90px;
+        text-align: center;
+    }
+
+    .payments__all-period-price {
+        justify-content: center;
+    }
+
+    .payments__rubl {
+        width: auto;
+    }
+
+    .payments__rubl-wrapper {
+        text-align: center;
+    }
+
+    .payments__first-semester,
+    .payments__second-semester{
+        width: 100%;
+    }
+
+
+    .request__content {
+        padding-left: 30px;
+        padding-right: 30px;
+        background: url("../images/request-bg-s.png") no-repeat center bottom / cover;
+    }
+
+    .request__wrapper {
+        width: 100%;
+    }
+
+    .request__form-item {
+        max-width: 100%;
+    }
+
+    .request__form {
+        flex-direction: column;
+    }
+
+    .request__button {
+        margin-left: auto;
+        margin-top: 0;
+    }
+}
+
+@media (max-width: 768px) {
+
+    section {
+        padding-top: 70px;
+    }
+
+    h3 {
+        font-size: 40px;
+    }
+
+    .top {
+        padding: 155px 0 56px;
+        background: url("../images/main-bg-s.jpg") no-repeat bottom center / cover;
+
+    }
+
+    .top__content {
+        flex-direction: column;
+        gap: 80px;
+        margin-top: 56px;
+    }
+
+    .top__title {
+        font-size: 80px;
+    }
+
+    .top__title span {
+        max-width: 285px;
+        font-size: 30px;
+        margin: 0 auto 10px;
+    }
+
+    .top__block:first-child {
+        max-width: 100%;
+    }
+
+    .top__places-text {
+        font-size: 20px;
+        line-height: 1.5;
+    }
+
+    .top__text {
+        font-size: 16px;
+        margin-top: 20px;
+    }
+
+    .top__text span {
+        font-size: 14px;
+    }
+
+    .top__block:last-child {
+        display: grid;
+        grid-template-columns: auto auto;
+        align-items: center;
+        gap: 0 24px;
+    }
+
+    .top__before {
+        grid-column: 1 / 3;
+        font-size: 20px;
+    }
+
+    .top__price {
+        margin-top: 0;
+        font-size: 50px;
+    }
+
+
+    .top__block:last-child .top__text {
+        margin-top: 0;
+    }
+
+    .about {
+        padding-top: 60px;
+    }
+
+    .about__title {
+        margin-left: 15px;
+    }
+
+    .about__inner {
+        padding: 0;
+    }
+
+    .about__content {
+        padding: 30px 17px 34px;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .about__list {
+        display: flex;
+        gap: 30px;
+    }
+
+    .about__balls {
+        margin-top: 23px;
+    }
+
+    .trajectory__content {
+        margin-top: 40px;
+    }
+
+    .trajectory__inner {
+        padding: 0;
+    }
+
+    .trajectory__title {
+        margin-left: 15px;
+    }
+
+    .trajectory__block {
+        padding: 30px 13px 32px 35px;
+        border-radius: 0;
+    }
+
+    .payments__subtitle {
+        font-size: 22px;
+    }
+
+    .payments__content {
+        margin-top: 40px;
+    }
+
+    .payments__all-period {
+        text-align: start;
+        padding-left: 64px;
+    }
+    .payments__all-period-price {
+        justify-content: start;
+    }
+
+    .payments__first-semester {
+        padding-right: 12px;
+        padding-bottom: 50px;
+    }
+
+    .payments__first-semester .payments__item:last-child {
+        flex-wrap: wrap;
+    }
+
+    .payments__second-semester {
+        padding-right: 9px;
+    }
+
+    .request {
+        padding-top: 97px;
+    }
+
+    .request__inner {
+        padding: 0;
+    }
+
+    .request__content {
+        border-radius: 0;
+        padding: 38px 25px 92px 22px;
+    }
+
+    .request__title {
+        font-size: 35px;
+    }
+
+    .request__title span {
+        font-size: 80px;
+        letter-spacing: -16px;
+    }
+
+    .request__wrapper {
+        padding: 0 15px 0 18px;
+        margin-top: 27px;
+    }
+    .request__flex {
+        flex-direction: column;
+    }
+
+    .request__text {
+        padding: 0 10px;
+    }
+
+    .request__button {
+        margin: 50px auto 0;
+    }
+
+    .footer {
+        margin-top: 40px;
+        border-radius: 0;
+        padding-bottom: 29px;
+    }
+
+    .footer__inner {
+       flex-direction: column;
+    }
+
+    .footer__wrapper {
+        text-align: center;
+    }
+
+    .footer__wrapper--right {
+        align-self: center;
+    }
+
+    .footer__mail {
+        width: fit-content;
+        margin: 30px auto 0;
+        order: 1;
+    }
+
+
+    .footer__socials {
+        margin: 0 auto;
+    }
+
+    .footer__mail {
+        margin: 40px auto;
+    }
+
+    .footer__policy {
+        margin: 0 auto;
+        text-align: center;
+        order: 1;
+    }
+
+}
+
+@media (max-width: 415px) {
+    .header__nav {
+        flex-direction: column;
+    }
+ .top__block:last-child .top__text {
+     grid-row: 3 / 4;
+ }
+}
+
+@media (max-width: 380px) {
+    .top__title {
+        font-size: 40px;
+    }
+
+    .top__title span {
+        font-size: 30px;
+    }
+
+    .payments__all-period {
+        padding-left: 30px;
+    }
+
+    .payments__first-semester,
+    .payments__second-semester{
+        padding-left: 20px;
+    }
+}

@@ -1,0 +1,72 @@
+/* Involve */
+
+@font-face {
+    font-family: "Involve";
+    src: url("../fonts/Involve/Involve-Medium.ttf");
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Involve";
+    src: url("../fonts/Involve/Involve-Regular.ttf");
+    font-weight: 400;
+    font-style: normal;
+}
+
+/* Arctika Script */
+
+@font-face {
+    font-family: "Arctika Script";
+    src: url("../fonts/ArctikaScript/Arctika-Script-Regular.ttf");
+    font-weight: 400;
+    font-style: normal;
+}
+
+/* Inter */
+
+@font-face {
+    font-family: "Inter";
+    src: url("../fonts/Inter/Inter-Regular.ttf");
+    font-weight: 400;
+    font-style: normal;
+}
+
+/* Gilroy */
+
+@font-face {
+    font-family: "Gilroy";
+    src: url("../fonts/Gilroy/Gilroy-Bold.ttf");
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Gilroy";
+    src: url("../fonts/Gilroy/Gilroy-Semibold.ttf");
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Gilroy";
+    src: url("../fonts/Gilroy/Gilroy-Medium.ttf");
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Gilroy";
+    src: url("../fonts/Gilroy/Gilroy-Regular.ttf");
+    font-weight: 400;
+    font-style: normal;
+}
+
+/* ASL-Rubl */
+
+@font-face {
+    font-family: "ASL Rubl";
+    src: url("../fonts/ASLRubl/ALS-Rubl-Regular.ttf");
+    font-weight: 400;
+    font-style: normal;
+}
